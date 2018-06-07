@@ -1,0 +1,12 @@
+<div class="jumbotron" *ngFor="let article of articles">
+  <h1>{{article.title}}</h1>
+  <img class="imgcss" src="{{article.image}}" alt="">
+  <p><a class="btn btn-lg btn-success" routerLink="/onenew/{{article.id}}" role="button">Voir la News</a></p>
+</div>
+
+
+<!-- <div class="jumbotron">
+  <h1>Rocket League détaille son évènement d'été Beach Blast</h1>
+  <img class="imgcss" src="assets/img/rl.jpg" alt="">
+  <p><a class="btn btn-lg btn-success" href="#" role="button">Voir la News</a></p>
+</div> -->
